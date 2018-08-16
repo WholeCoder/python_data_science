@@ -8,12 +8,13 @@ df = pd.read_csv('Data/Grade_Set_1.csv')
 
 # Create linear regression object
 lr = lm.LinearRegression()
+# print df.Hours_Studied
 
 x= df.Hours_Studied[:, np.newaxis]
-
+print x
 # independent variable
 y= df.Test_Grade.values
-
+print y
 # dependent variable# Train the model using the training sets
 lr.fit(x, y)
 
