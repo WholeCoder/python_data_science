@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 # create correlation matrix
 # corr = iris.corr()
 df = pd.read_csv("./Data/Grade_Set_1.csv")
+print df
 
 import statsmodels.api as sm
 
