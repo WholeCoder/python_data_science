@@ -37,3 +37,40 @@ df.boxplot()
 # plot boxplot
 plt.title("Bar Plot", fontsize=16)
 plt.show()
+
+print df.describe()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Multivarite analysis
+# print the mean for each column by species
+print df.groupby(by = "carb").mean()
+
+# plot for mean of each feature for each label class
+df.groupby(by = "carb").mean().plot(kind="bar")
+plt.title('Class vs Measurements')
+plt.ylabel('mean measurement(cm)')
+plt.xticks(rotation=0)
+
+# manage the xticks rotation
+plt.grid(True)
+# Use bbox_to_anchor option to place the legend outside plot area to be tidy
+plt.legend(loc="upper left", bbox_to_anchor=(1,1))
+
+plt.show()
