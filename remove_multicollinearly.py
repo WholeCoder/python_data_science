@@ -24,6 +24,8 @@ y = df['price']
 
 thresh = 10
 
+# eliminate strongly correlated variables from our calculations
+
 for i in np.arange(0,len(independent_variables)):
     vif = [variance_inflation_factor(X[independent_variables].values, ix) for ix in range(X[independent_variables].shape[1])]
     maxloc = vif.index(max(vif))
