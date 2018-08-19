@@ -53,6 +53,16 @@ if pattern.match("  <HTML>",  2): # eg10.py
     print("offset by 2 <HTML> matched at beginning of line offset by 2")
 
 
-pattern = re.compile(r'<HTML>') eg11.py
-pattern.match("<HTML>"[:2])
-pattern.match("<HTML>", 0, 2)
+pattern = re.compile(r"<HTML>"[:2]) # eg11.py
+tst = "<HTML>"[:2] # <HT
+print (tst)
+
+if pattern.match("<HTML>"[:2]):
+    print( "matched <HTML>")
+else:
+    print( "couldnt' find <HTML> in <H")
+
+if pattern.match("<HTML>", 0, 2): # pos to npos-1 are searched
+    print( "matched HTML 0, 2 range")
+else:
+    print( "couldn't find <HTML> in <H>")
