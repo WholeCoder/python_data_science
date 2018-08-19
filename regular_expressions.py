@@ -65,4 +65,17 @@ else:
 if pattern.match("<HTML>", 0, 2): # pos to npos-1 are searched
     print( "matched HTML 0, 2 range")
 else:
-    print( "couldn't find <HTML> in <H>")
+    print( "couldn't find <HTML> in <H")
+
+
+
+
+pattern = re.compile(r'<HTML>$') # eg12.py
+if pattern.match("<HTML>",0,6):
+    print "matched pattern.match(\"<HTML> \", 0,6)"
+else:
+    print "didn't matched pattern.match(\"<HTML> \", 0,6)"
+if pattern.match("<HTML> "[:6]):
+    print "matched pattern.match(\"<HTML> \"[:6])"
+else:
+    print "didn't matched pattern.match(\"<HTML> \"[:6])"
