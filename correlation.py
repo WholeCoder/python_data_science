@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # create correlation matrix
 # corr = iris.corr()
-df = pd.read_csv("./mtcars.csv")
+df = pd.read_csv("./Data/OmniCleanTshirtPreferencesTargetAudience.csv")
 corr = df.corr()
 
 print(corr)

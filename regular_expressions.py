@@ -9,7 +9,7 @@ pattern = re.compile("\\\\") # \\ = \ to search for.  \ is escaped
 if pattern.match("\\author"):
     print( "\\\\ = \\ to search for.  \\ is escaped" )
 
-pattern = re.compile(r"\\")
+pattern = re.compile(r"\\") # can't end with a backslash
 if pattern.match(r"\author"):
     print( "matched nothing" ) # match nothing eg3.py
 
