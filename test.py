@@ -21,7 +21,7 @@ y = df['Design16Clothing']
 
 # Split your data set into 80/20 for train/test datasets
 from sklearn.cross_validation import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=.50, random_state=1)
+X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=.80, random_state=1)
 
 # create a fitted model & print the summary
 # lm = sm.OLS(y_train, X_train).fit()
@@ -32,14 +32,7 @@ print lm.summary()
 y_train_pred = lm.predict(X_train)
 y_test_pred = lm.predict(X_test)
 
-plt.scatter(X_test, y_test,  color='black')
-# plt.scatter(diabetes_X_test, diabetes_y_test,  color='black')
-plt.plot(X_test, y_test_pred, color='blue', linewidth=3)
-# plt.plot(diabetes_X_test, diabetes_y_pred, color='blue', linewidth=3)
-
-plt.show()
-
-# print "Train MAE: ", metrics.mean_absolute_error(y_train, y_train_pred)
-# print "Train RMSE: ", np.sqrt(metrics.mean_squared_error(y_train, y_train_pred))
-# print "Test MAE: ", metrics.mean_absolute_error(y_test, y_test_pred)
-# print "Test RMSE: ", np.sqrt(metrics.mean_squared_error(y_test, y_test_pred))
+print "Train MAE: ", metrics.mean_absolute_error(y_train, y_train_pred)
+print "Train RMSE: ", np.sqrt(metrics.mean_squared_error(y_train, y_train_pred))
+print "Test MAE: ", metrics.mean_absolute_error(y_test, y_test_pred)
+print "Test RMSE: ", np.sqrt(metrics.mean_squared_error(y_test, y_test_pred))
