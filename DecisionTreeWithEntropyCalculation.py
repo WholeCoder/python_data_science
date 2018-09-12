@@ -111,6 +111,11 @@ from math import log
 print count0/divide_by_count
 entr = -(count0/divide_by_count*log(count0/divide_by_count)/log(2.0)+ count1/divide_by_count*log(count1/divide_by_count)/log(2.0)+ count2/divide_by_count*log(count2/divide_by_count)/log(2.0))#+ count3/divide_by_count*log(count3/divide_by_count)/log(2.0))
 
+print("count0 entropy == ",-count0/divide_by_count*log(count0/divide_by_count)/log(2.0))
+print("count1 entropy == ",-count1/divide_by_count*log(count1/divide_by_count)/log(2.0))
+print("count2 entropy == ",-count2/divide_by_count*log(count2/divide_by_count)/log(2.0))
+print("count3 entropy == ",-count3/divide_by_count*log(count3/divide_by_count)/log(2.0))
+
 # print("Total count == ", count0+count1+count2)
 print("len(X_train) == ", len(X_train))
 print("entropy == ",entr)
