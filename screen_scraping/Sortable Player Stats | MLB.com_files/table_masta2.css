@@ -1,0 +1,99 @@
+/* global table styles */
+.stats_table, .data_grid {border-collapse:collapse;width:100%;}
+.stats_table caption, .data_grid caption {font-size:12px;font-weight:normal;margin:0 0 4px;}
+.stats_table col.last, .data_grid col.last {border:none;}
+.stats_table thead, .data_grid thead {background:#f1f1f1;color:#666;}
+.stats_table th, .data_grid th {padding:6px 4px;font-weight:bold;font-size:.9em;}
+.stats_table td, .data_grid td {padding:4px 4px;color:#333;font-size:1em;}
+.stats_table .no_hover tbody tr:hover td, .data_grid .no_hover tbody tr:hover td {background-color:#fff;color:#333;}
+.stats_table .sortIcons, .data_grid .sortIcons {color:#f1f1f1;font-size:.8em;padding-left:2px;display:none;}
+.stats_table th.active .sortIcons, .data_grid th.active .sortIcons {color:#000099;display:inline;}
+.stats_table th.sortable:hover abbr, .data_grid th.sortable:hover abbr {text-decoration:underline;}
+.stats_table tbody td, .data_grid tbody td {border-bottom:1px solid #e7e7e7;}
+.stats_table tbody tr:last-child, .data_grid tbody tr:last-child {border:none;}
+
+/* utility */
+.stats_table .active, .data_grid .active {background:#f5f5f5;}
+.stats_table thead th.active, .data_grid thead th.active {background:#dcdcdc;}
+.stats_table th.sortable, .data_grid th.sortable {color:#000066;cursor:pointer;}
+.stats_table tr.table_highlight td, .data_grid tr.table_highlight td {font-weight:bold;}
+.stats_table.no_border tbody tr, .data_grid.no_border tbody tr {border:none;}
+.stats_table .table_screen_reader, .data_grid .table_screen_reader {text-indent:-9999px;}
+.stats_table tr:hover td {background:#f5f5f5;}
+.no_hover tr:hover td {background:none;}
+
+/* datagrid tables */
+#datagrid {padding:0 6px;}
+#datagrid .stats_table {width:98.6%}
+#datagrid .stats_table td {width:4%;/*font-size:.8em;*/}
+#datagrid .stats_table td.dg-name_display_roster {white-space:nowrap;padding-right:1em;}
+#datagrid .stats_table .dg-rank, #datagrid .stats_table .dg-name_display_roster, #datagrid .stats_table .dg-team_abbrev, #datagrid .stats_table .dg-pos  {text-align:left;}
+#datagrid .stats_table td, #datagrid .stats_table th  {text-align:right;}
+
+/* TixGrid tables */
+.data_grid td { vertical-align: top; }
+
+/* Article Tokens */
+.table_masta.regular {margin:8px 0;width:250px;border-top:5px solid #666;border-bottom:5px solid #666;padding-top:4px;}
+.table_masta.left {margin-right:20px;}
+.table_masta.right {margin-left:20px;}
+.table_masta.full {width:100%;}
+.table_masta.regular h5 {text-transform:uppercase;font-size:14px;margin-bottom:4px;line-height:1em;}
+.table_masta.regular h5 img {margin:-4px;}
+.table_masta.regular .headline {text-transform:uppercase;display:block;font-weight:bold;}
+.table_masta.regular .subheadline {display:block;margin-bottom:4px;}
+.table_masta.regular .table_footer {margin:6px 0;display:block;}
+
+/* added 9/30/2014*/
+
+/* Global Tokens */
+.editorial_token {width:300px !important;float:right !important;clear:both;margin:0 0 26px 26px;border:none;}
+.editorial_token h3 {color:#fff;font-weight:bold;font-size:14px !important;margin:0 0 10px 0 !important;text-align:center;background:#000;padding:8px 0;}
+.editorial_token a {color:#333;font-weight:bold !important;}
+.editorial_token a:hover {text-decoration:underline;}
+.editorial_token .description {font-size:12px;color:#333;line-height:normal !important;}
+.editorial_token hr {color:#eee;margin:8px 0 14px 0;}
+.editorial_token p {margin:0 0 12px 0 !important;}
+.editorial_token:nth-of-type(1) {margin-top:26px;}
+
+/* Table Token */
+.table_token h3 {background:#fff;color:#333; text-transform: uppercase;text-align:left;padding:0;margin:0 0 14px 0 !important;}
+.table_token td, .table_token th {font-size:12px;padding:10px 4px;text-align:left;}
+.table_token thead {border-top:1px solid #ccc;border-bottom:1px solid #ccc;}
+.table_token .table_footer {font-size:12px;margin:5px 0 0 0;}
+.table_token .table_footer div {margin:0 0 18px 0;}
+.table_token .table_footer .logo img {margin:0 8px 0 0;}
+.table_token .table_footer .logo {margin:8px 0 0 0;padding: 0 0 0 26px;}
+.table_token .table_footer .logo.mlbn img {margin:0 13px 0 3px;}
+
+/* Related Content Token */
+.related_content_token li {font-size:12px;margin:0 0 12px 0;line-height:12px;padding:0;list-style-type:none !important;}
+.related_content_token a {font-weight:normal !important;}
+.related_content_token .header_image {width:300px;}
+.related_content_token .related_links li {position:relative;}
+.related_content_token .related_links li.video,
+.related_content_token .related_links li.photo {padding-left:0px;}
+.related_content_token .related_links li.video a,
+.related_content_token .related_links li.photo a {padding-left:20px;}
+.related_content_token .related_links li.video:before {background:url(http://mlb.mlb.com/shared/style/images/video-photo_sprite@2x.png) no-repeat 0px 0px;width:30px;height:11px;display:block;position:absolute;content: " ";top:1px;left:0px;background-size: 50%;}
+.related_content_token .related_links li.photo:before {background:url(http://mlb.mlb.com/shared/style/images/video-photo_sprite@2x.png) no-repeat 0px -11px;width:30px;height:11px;display:block;position:absolute;content: " ";top:1px;left:0px;background-size: 50%;}
+.related_content_token .overflow_links {width:100%;}
+
+/* List Token */
+.list_token ol li {list-style-type:decimal;font-size:12px;font-weight:normal;line-height:12px;margin:0 0 12px 20px;}
+
+/* Token Media Queries */
+@media only screen and (max-width : 480px) {
+	.editorial_token, .table_token  {float:none !important;margin:0 auto 26px auto;}
+}
+
+#lineups ol li {margin-left:0;}
+#lineups ol li a {width: auto;}
+
+/* TEMP HACK FOR SPANISH NEWS - WILL BE REMOVED ON NEXT BUILD */
+.lang-es .poster figcaption.photo {display:none;}
+
+/* TEMP HACK for contributor biz logic */
+article[data-author="Alyson Footer"] .contributor.cf {
+  display: none;
+}
