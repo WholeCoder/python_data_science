@@ -8,6 +8,11 @@ def print_property(link, clss, name_of_property):
     name = link.find_all('td', class_=clss)[0]
 
     if (len(name) > 0):
+        if "," in name.contents[0]:
+            splt = name.contents[0].split(",")
+            name.contents[0] = splt[1] + " " + splt[0]
+
+            println("s == ",s[0],"   s1 == ", s[1])
         print(name_of_property, ":  ", unicode(name.contents[0]))
         listToWriteValuesToCSV.append(unicode(name.contents[0]))
         # listToWriteValuesToCSV.append(unicode(","))
@@ -26,7 +31,7 @@ with open('/home/rpierich/delme/python_data_science/screen_scraping/Sortable Pla
     with io.open("eggs.csv", 'w', newline='', encoding='utf-8') as f:
         # writer = csv.writer(f)
         spamwriter = csv.writer(f, delimiter=unicode(","),
-                        quotechar=unicode('|'), quoting=csv.QUOTE_MINIMAL)
+                        quotechar=unicode("'"), quoting=csv.QUOTE_MINIMAL)
         spamwriter.writerow(['RK','Player','Team','Pos','G','AB','R','H','2B','3B','HR','RBI','BB','SO','SB','CS','AVG','OBP','SLG','OPS','IBB','HBP','SAC','SF','TB','XBH','GDP','GO','AO','GO_AO','NP','PA'])
 
         links = soup.find_all('tr', tabindex=0)
@@ -45,8 +50,9 @@ with open('/home/rpierich/delme/python_data_science/screen_scraping/Sortable Pla
 
             print_property(link, "dg-rank", "RK")
             # print_property(link, "dg-name_display_last_init", "Player")
-            print("Player", ":  ", unicode(aa[0].contents[0]))
-            listToWriteValuesToCSV.append(unicode(aa[0].contents[0]))
+            playerString = aa[0].contents[0].split(",")[1] + " " + aa[0].contents[0].split(",")[0]
+            print("Player", ":  ", unicode(playerString))
+            listToWriteValuesToCSV.append(playerString.strip())
             print_property(link, "dg-team_abbrev", "Team")
             print_property(link, "dg-pos", "Pos")
             print_property(link, "dg-g", "G")
