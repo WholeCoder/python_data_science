@@ -35,18 +35,18 @@ with open('/home/rpierich/delme/python_data_science/screen_scraping/Sortable Pla
 
             name = link.find_all('td', class_="dg-name_display_last_init")
 
-            print_property(link, "dg-rank", "Rank")
-
             aa = name[0].find_all('a')
             print(aa[0].contents[0])
-
+            # print_property(link, "dg-name_display_last_init", "Player")
             # with open('eggs.csv', 'wb') as csvfile:
             #     spamwriter = csv.writer(csvfile, delimiter=' ',
             #                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
             #     spamwriter.writerow(['RK','Player','Team','Pos','G','AB','R','H','2B','3B','HR','RBI','BB','SO','SB','CS','AVG','OBP','SLG','OPS','IBB','HBP','SAC','SF','TB','XBH','GDP','GO','AO','GO_AO','NP','PA'])
 
             print_property(link, "dg-rank", "RK")
-            print_property(link, "dg-name_display_last_init", "Player")
+            # print_property(link, "dg-name_display_last_init", "Player")
+            print("Player", ":  ", unicode(aa[0].contents[0]))
+            listToWriteValuesToCSV.append(unicode(aa[0].contents[0]))
             print_property(link, "dg-team_abbrev", "Team")
             print_property(link, "dg-pos", "Pos")
             print_property(link, "dg-g", "G")
@@ -83,5 +83,5 @@ with open('/home/rpierich/delme/python_data_science/screen_scraping/Sortable Pla
             # print(name.contents[0])
             for ele in listToWriteValuesToCSV:
                 print(ele)
-            print("\n\n"+listToWriteValuesToCSV)
+            # print("\n\n"+listToWriteValuesToCSV)
             spamwriter.writerow(listToWriteValuesToCSV)
