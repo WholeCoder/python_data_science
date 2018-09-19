@@ -17,14 +17,7 @@ def print_property(link, clss, name_of_property):
             println("s == ",s[0],"   s1 == ", s[1])
         print(name_of_property, ":  ", unicode(name.contents[0]))
         listToWriteValuesToCSV.append(unicode(name.contents[0]))
-        # listToWriteValuesToCSV.append(unicode(","))
-        # print("active not in clss class == "+clss)
-    # else:
-    #     print("active in class class == "+clss)
-    # p.agent_info = u' '.join((agent_contact, agent_telno)).encode('utf-8').strip()
-    # str(integer).decode("utf-8")
-    # agent_info = u' '.join((name_of_property,name.contents[0])).encode('utf-8').strip()
-    # print(agent_info)
+
 listToWritopeneValuesToCSV = []
 
 with open('input_mlb_stats.com.html') as infile:
