@@ -2,6 +2,8 @@ from bs4 import BeautifulSoup
 from backports import csv
 import io
 
+# This script will parse out the page located at: http://mlb.mlb.com/stats/sortable.jsp#elem=%5Bobject+Object%5D&tab_level=child&click_text=Sortable+Player+hitting&game_type='R'&season=2018&season_type=ANY&league_code='MLB'&sectionType=sp&statType=hitting&page=1&ts=1537337330743&playerType=QUALIFIER&sportCode='mlb'&split=&team_id=&active_sw=&position=&page_type=SortablePlayer&sortOrder='desc'&sortColumn=avg&results=&perPage=50&timeframe=&last_x_days=&extended=0
+
 def print_property(link, clss, name_of_property):
     if "active" in clss: return
 
@@ -25,10 +27,10 @@ def print_property(link, clss, name_of_property):
     # print(agent_info)
 listToWritopeneValuesToCSV = []
 
-with open('/home/rpierich/delme/python_data_science/screen_scraping/Sortable Player Stats | MLB.com.html') as infile:
+with open('input_mlb_stats.com.html') as infile:
     soup = BeautifulSoup(infile , 'html.parser')
 
-    with io.open("eggs.csv", 'w', newline='', encoding='utf-8') as f:
+    with io.open("stats.csv", 'w', newline='', encoding='utf-8') as f:
         # writer = csv.writer(f)
         spamwriter = csv.writer(f, delimiter=unicode(","),
                         quotechar=unicode("'"), quoting=csv.QUOTE_MINIMAL)
