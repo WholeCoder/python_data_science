@@ -1,0 +1,539 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="undirected">
+    <data key="d0">()</data>
+    <node id="Pearl Oglethorpe" />
+    <node id="Katherina Rogers" />
+    <node id="Eleanor Nye" />
+    <node id="Myra Liddel" />
+    <node id="Evelyn Jefferson" />
+    <node id="Sylvia Avondale" />
+    <node id="Nora Fayette" />
+    <node id="Frances Anderson" />
+    <node id="Laura Mandeville" />
+    <node id="Ruth DeSand" />
+    <node id="Flora Price" />
+    <node id="Brenda Rogers" />
+    <node id="Charlotte McDowd" />
+    <node id="Olivia Carleton" />
+    <node id="Verne Sanderson" />
+    <node id="Dorothy Murchison" />
+    <node id="Helen Lloyd" />
+    <node id="Theresa Anderson" />
+    <edge source="Brenda Rogers" target="Brenda Rogers">
+      <data key="d1">0.9999999999999999</data>
+    </edge>
+    <edge source="Brenda Rogers" target="Verne Sanderson">
+      <data key="d1">-0.73262579077431</data>
+    </edge>
+    <edge source="Brenda Rogers" target="Olivia Carleton">
+      <data key="d1">-0.9947028868803334</data>
+    </edge>
+    <edge source="Brenda Rogers" target="Dorothy Murchison">
+      <data key="d1">-0.3652153111550368</data>
+    </edge>
+    <edge source="Brenda Rogers" target="Pearl Oglethorpe">
+      <data key="d1">0.5567094273475164</data>
+    </edge>
+    <edge source="Brenda Rogers" target="Helen Lloyd">
+      <data key="d1">-0.9687975495430718</data>
+    </edge>
+    <edge source="Brenda Rogers" target="Katherina Rogers">
+      <data key="d1">-0.9921811682046098</data>
+    </edge>
+    <edge source="Brenda Rogers" target="Eleanor Nye">
+      <data key="d1">0.9964530373447612</data>
+    </edge>
+    <edge source="Brenda Rogers" target="Flora Price">
+      <data key="d1">-0.9947028868803334</data>
+    </edge>
+    <edge source="Brenda Rogers" target="Laura Mandeville">
+      <data key="d1">0.9999538351204033</data>
+    </edge>
+    <edge source="Brenda Rogers" target="Nora Fayette">
+      <data key="d1">-0.9972914387422769</data>
+    </edge>
+    <edge source="Brenda Rogers" target="Myra Liddel">
+      <data key="d1">-0.9559537520059916</data>
+    </edge>
+    <edge source="Brenda Rogers" target="Frances Anderson">
+      <data key="d1">0.9910853823654808</data>
+    </edge>
+    <edge source="Brenda Rogers" target="Theresa Anderson">
+      <data key="d1">0.9972886842670472</data>
+    </edge>
+    <edge source="Brenda Rogers" target="Ruth DeSand">
+      <data key="d1">0.9211335894509225</data>
+    </edge>
+    <edge source="Brenda Rogers" target="Charlotte McDowd">
+      <data key="d1">0.9900628587268994</data>
+    </edge>
+    <edge source="Brenda Rogers" target="Sylvia Avondale">
+      <data key="d1">-0.9921866528684342</data>
+    </edge>
+    <edge source="Brenda Rogers" target="Evelyn Jefferson">
+      <data key="d1">0.9887079348991354</data>
+    </edge>
+    <edge source="Verne Sanderson" target="Verne Sanderson">
+      <data key="d1">1.0000000000000002</data>
+    </edge>
+    <edge source="Verne Sanderson" target="Olivia Carleton">
+      <data key="d1">0.7777689037307446</data>
+    </edge>
+    <edge source="Verne Sanderson" target="Dorothy Murchison">
+      <data key="d1">0.7763636403527207</data>
+    </edge>
+    <edge source="Verne Sanderson" target="Pearl Oglethorpe">
+      <data key="d1">0.0004596419634150854</data>
+    </edge>
+    <edge source="Verne Sanderson" target="Helen Lloyd">
+      <data key="d1">0.8252824887949428</data>
+    </edge>
+    <edge source="Verne Sanderson" target="Katherina Rogers">
+      <data key="d1">0.803929514910042</data>
+    </edge>
+    <edge source="Verne Sanderson" target="Eleanor Nye">
+      <data key="d1">-0.6740306098389421</data>
+    </edge>
+    <edge source="Verne Sanderson" target="Flora Price">
+      <data key="d1">0.7777689037307443</data>
+    </edge>
+    <edge source="Verne Sanderson" target="Laura Mandeville">
+      <data key="d1">-0.7296860202965929</data>
+    </edge>
+    <edge source="Verne Sanderson" target="Nora Fayette">
+      <data key="d1">0.7263982343663771</data>
+    </edge>
+    <edge source="Verne Sanderson" target="Myra Liddel">
+      <data key="d1">0.877217084200469</data>
+    </edge>
+    <edge source="Verne Sanderson" target="Frances Anderson">
+      <data key="d1">-0.6765635108779519</data>
+    </edge>
+    <edge source="Verne Sanderson" target="Theresa Anderson">
+      <data key="d1">-0.6947184408579524</data>
+    </edge>
+    <edge source="Verne Sanderson" target="Ruth DeSand">
+      <data key="d1">-0.4118954054703666</data>
+    </edge>
+    <edge source="Verne Sanderson" target="Charlotte McDowd">
+      <data key="d1">-0.7812201958320802</data>
+    </edge>
+    <edge source="Verne Sanderson" target="Sylvia Avondale">
+      <data key="d1">0.8071563979510956</data>
+    </edge>
+    <edge source="Verne Sanderson" target="Evelyn Jefferson">
+      <data key="d1">-0.6926844231555478</data>
+    </edge>
+    <edge source="Olivia Carleton" target="Olivia Carleton">
+      <data key="d1">1.0</data>
+    </edge>
+    <edge source="Olivia Carleton" target="Dorothy Murchison">
+      <data key="d1">0.4578065065869152</data>
+    </edge>
+    <edge source="Olivia Carleton" target="Pearl Oglethorpe">
+      <data key="d1">-0.4684153259743805</data>
+    </edge>
+    <edge source="Olivia Carleton" target="Helen Lloyd">
+      <data key="d1">0.962644437833122</data>
+    </edge>
+    <edge source="Olivia Carleton" target="Katherina Rogers">
+      <data key="d1">0.9989339817944012</data>
+    </edge>
+    <edge source="Olivia Carleton" target="Eleanor Nye">
+      <data key="d1">-0.986545865771983</data>
+    </edge>
+    <edge source="Olivia Carleton" target="Flora Price">
+      <data key="d1">1.0</data>
+    </edge>
+    <edge source="Olivia Carleton" target="Laura Mandeville">
+      <data key="d1">-0.9937182674772466</data>
+    </edge>
+    <edge source="Olivia Carleton" target="Nora Fayette">
+      <data key="d1">0.9861855668869103</data>
+    </edge>
+    <edge source="Olivia Carleton" target="Myra Liddel">
+      <data key="d1">0.9796147482648574</data>
+    </edge>
+    <edge source="Olivia Carleton" target="Frances Anderson">
+      <data key="d1">-0.972410958350088</data>
+    </edge>
+    <edge source="Olivia Carleton" target="Theresa Anderson">
+      <data key="d1">-0.9844438177835297</data>
+    </edge>
+    <edge source="Olivia Carleton" target="Ruth DeSand">
+      <data key="d1">-0.8849419340327779</data>
+    </edge>
+    <edge source="Olivia Carleton" target="Charlotte McDowd">
+      <data key="d1">-0.9991031361439829</data>
+    </edge>
+    <edge source="Olivia Carleton" target="Sylvia Avondale">
+      <data key="d1">0.9924337534022695</data>
+    </edge>
+    <edge source="Olivia Carleton" target="Evelyn Jefferson">
+      <data key="d1">-0.9696734734439361</data>
+    </edge>
+    <edge source="Dorothy Murchison" target="Dorothy Murchison">
+      <data key="d1">0.9999999999999999</data>
+    </edge>
+    <edge source="Dorothy Murchison" target="Pearl Oglethorpe">
+      <data key="d1">0.5639345814296455</data>
+    </edge>
+    <edge source="Dorothy Murchison" target="Helen Lloyd">
+      <data key="d1">0.3804785490586155</data>
+    </edge>
+    <edge source="Dorothy Murchison" target="Katherina Rogers">
+      <data key="d1">0.4761483750609126</data>
+    </edge>
+    <edge source="Dorothy Murchison" target="Eleanor Nye">
+      <data key="d1">-0.3122292596097418</data>
+    </edge>
+    <edge source="Dorothy Murchison" target="Flora Price">
+      <data key="d1">0.45780650658691496</data>
+    </edge>
+    <edge source="Dorothy Murchison" target="Laura Mandeville">
+      <data key="d1">-0.3572310942884644</data>
+    </edge>
+    <edge source="Dorothy Murchison" target="Nora Fayette">
+      <data key="d1">0.31890625067076406</data>
+    </edge>
+    <edge source="Dorothy Murchison" target="Myra Liddel">
+      <data key="d1">0.6191036552577366</data>
+    </edge>
+    <edge source="Dorothy Murchison" target="Frances Anderson">
+      <data key="d1">-0.24564522107099535</data>
+    </edge>
+    <edge source="Dorothy Murchison" target="Theresa Anderson">
+      <data key="d1">-0.2963216155888674</data>
+    </edge>
+    <edge source="Dorothy Murchison" target="Ruth DeSand">
+      <data key="d1">-0.0212437993746437</data>
+    </edge>
+    <edge source="Dorothy Murchison" target="Charlotte McDowd">
+      <data key="d1">-0.4862983779462824</data>
+    </edge>
+    <edge source="Dorothy Murchison" target="Sylvia Avondale">
+      <data key="d1">0.42788805796004253</data>
+    </edge>
+    <edge source="Dorothy Murchison" target="Evelyn Jefferson">
+      <data key="d1">-0.24727879725015414</data>
+    </edge>
+    <edge source="Pearl Oglethorpe" target="Pearl Oglethorpe">
+      <data key="d1">1.0000000000000002</data>
+    </edge>
+    <edge source="Pearl Oglethorpe" target="Helen Lloyd">
+      <data key="d1">-0.5413128107424313</data>
+    </edge>
+    <edge source="Pearl Oglethorpe" target="Katherina Rogers">
+      <data key="d1">-0.4542335307940312</data>
+    </edge>
+    <edge source="Pearl Oglethorpe" target="Eleanor Nye">
+      <data key="d1">0.5939299046184577</data>
+    </edge>
+    <edge source="Pearl Oglethorpe" target="Flora Price">
+      <data key="d1">-0.46841532597438035</data>
+    </edge>
+    <edge source="Pearl Oglethorpe" target="Laura Mandeville">
+      <data key="d1">0.5641913352083818</data>
+    </edge>
+    <edge source="Pearl Oglethorpe" target="Nora Fayette">
+      <data key="d1">-0.6010528680214443</data>
+    </edge>
+    <edge source="Pearl Oglethorpe" target="Myra Liddel">
+      <data key="d1">-0.2978696588248545</data>
+    </edge>
+    <edge source="Pearl Oglethorpe" target="Frances Anderson">
+      <data key="d1">0.6595287114376979</data>
+    </edge>
+    <edge source="Pearl Oglethorpe" target="Theresa Anderson">
+      <data key="d1">0.616328268949348</data>
+    </edge>
+    <edge source="Pearl Oglethorpe" target="Ruth DeSand">
+      <data key="d1">0.7718810451431246</data>
+    </edge>
+    <edge source="Pearl Oglethorpe" target="Charlotte McDowd">
+      <data key="d1">0.43632196784142124</data>
+    </edge>
+    <edge source="Pearl Oglethorpe" target="Sylvia Avondale">
+      <data key="d1">-0.5050475845041967</data>
+    </edge>
+    <edge source="Pearl Oglethorpe" target="Evelyn Jefferson">
+      <data key="d1">0.6601886474955614</data>
+    </edge>
+    <edge source="Helen Lloyd" target="Helen Lloyd">
+      <data key="d1">1.0</data>
+    </edge>
+    <edge source="Helen Lloyd" target="Katherina Rogers">
+      <data key="d1">0.9709297209801907</data>
+    </edge>
+    <edge source="Helen Lloyd" target="Eleanor Nye">
+      <data key="d1">-0.9482040927721879</data>
+    </edge>
+    <edge source="Helen Lloyd" target="Flora Price">
+      <data key="d1">0.9626444378331219</data>
+    </edge>
+    <edge source="Helen Lloyd" target="Laura Mandeville">
+      <data key="d1">-0.9695830432402073</data>
+    </edge>
+    <edge source="Helen Lloyd" target="Nora Fayette">
+      <data key="d1">0.9783530523770886</data>
+    </edge>
+    <edge source="Helen Lloyd" target="Myra Liddel">
+      <data key="d1">0.9455719755622704</data>
+    </edge>
+    <edge source="Helen Lloyd" target="Frances Anderson">
+      <data key="d1">-0.9679675698500538</data>
+    </edge>
+    <edge source="Helen Lloyd" target="Theresa Anderson">
+      <data key="d1">-0.9664768864212424</data>
+    </edge>
+    <edge source="Helen Lloyd" target="Ruth DeSand">
+      <data key="d1">-0.8354090890845592</data>
+    </edge>
+    <edge source="Helen Lloyd" target="Charlotte McDowd">
+      <data key="d1">-0.9524799619547418</data>
+    </edge>
+    <edge source="Helen Lloyd" target="Sylvia Avondale">
+      <data key="d1">0.9886039285123717</data>
+    </edge>
+    <edge source="Helen Lloyd" target="Evelyn Jefferson">
+      <data key="d1">-0.975691447622037</data>
+    </edge>
+    <edge source="Katherina Rogers" target="Katherina Rogers">
+      <data key="d1">1.0000000000000002</data>
+    </edge>
+    <edge source="Katherina Rogers" target="Eleanor Nye">
+      <data key="d1">-0.9802806876754111</data>
+    </edge>
+    <edge source="Katherina Rogers" target="Flora Price">
+      <data key="d1">0.9989339817944011</data>
+    </edge>
+    <edge source="Katherina Rogers" target="Laura Mandeville">
+      <data key="d1">-0.9911993270269877</data>
+    </edge>
+    <edge source="Katherina Rogers" target="Nora Fayette">
+      <data key="d1">0.9849331472260443</data>
+    </edge>
+    <edge source="Katherina Rogers" target="Myra Liddel">
+      <data key="d1">0.9850685635573104</data>
+    </edge>
+    <edge source="Katherina Rogers" target="Frances Anderson">
+      <data key="d1">-0.9692295558414893</data>
+    </edge>
+    <edge source="Katherina Rogers" target="Theresa Anderson">
+      <data key="d1">-0.9808206025866905</data>
+    </edge>
+    <edge source="Katherina Rogers" target="Ruth DeSand">
+      <data key="d1">-0.8677073172801366</data>
+    </edge>
+    <edge source="Katherina Rogers" target="Charlotte McDowd">
+      <data key="d1">-0.9976190001820116</data>
+    </edge>
+    <edge source="Katherina Rogers" target="Sylvia Avondale">
+      <data key="d1">0.995629797686611</data>
+    </edge>
+    <edge source="Katherina Rogers" target="Evelyn Jefferson">
+      <data key="d1">-0.9682183639077009</data>
+    </edge>
+    <edge source="Eleanor Nye" target="Eleanor Nye">
+      <data key="d1">1.0000000000000002</data>
+    </edge>
+    <edge source="Eleanor Nye" target="Flora Price">
+      <data key="d1">-0.9865458657719832</data>
+    </edge>
+    <edge source="Eleanor Nye" target="Laura Mandeville">
+      <data key="d1">0.9966060892773229</data>
+    </edge>
+    <edge source="Eleanor Nye" target="Nora Fayette">
+      <data key="d1">-0.9929710632367345</data>
+    </edge>
+    <edge source="Eleanor Nye" target="Myra Liddel">
+      <data key="d1">-0.9335984643500752</data>
+    </edge>
+    <edge source="Eleanor Nye" target="Frances Anderson">
+      <data key="d1">0.9915838799140584</data>
+    </edge>
+    <edge source="Eleanor Nye" target="Theresa Anderson">
+      <data key="d1">0.9971863999280395</data>
+    </edge>
+    <edge source="Eleanor Nye" target="Ruth DeSand">
+      <data key="d1">0.9488100166072643</data>
+    </edge>
+    <edge source="Eleanor Nye" target="Charlotte McDowd">
+      <data key="d1">0.9818161011982095</data>
+    </edge>
+    <edge source="Eleanor Nye" target="Sylvia Avondale">
+      <data key="d1">-0.9782455498557119</data>
+    </edge>
+    <edge source="Eleanor Nye" target="Evelyn Jefferson">
+      <data key="d1">0.9865100185345951</data>
+    </edge>
+    <edge source="Flora Price" target="Flora Price">
+      <data key="d1">1.0</data>
+    </edge>
+    <edge source="Flora Price" target="Laura Mandeville">
+      <data key="d1">-0.9937182674772462</data>
+    </edge>
+    <edge source="Flora Price" target="Nora Fayette">
+      <data key="d1">0.9861855668869106</data>
+    </edge>
+    <edge source="Flora Price" target="Myra Liddel">
+      <data key="d1">0.9796147482648574</data>
+    </edge>
+    <edge source="Flora Price" target="Frances Anderson">
+      <data key="d1">-0.9724109583500878</data>
+    </edge>
+    <edge source="Flora Price" target="Theresa Anderson">
+      <data key="d1">-0.9844438177835296</data>
+    </edge>
+    <edge source="Flora Price" target="Ruth DeSand">
+      <data key="d1">-0.884941934032778</data>
+    </edge>
+    <edge source="Flora Price" target="Charlotte McDowd">
+      <data key="d1">-0.9991031361439829</data>
+    </edge>
+    <edge source="Flora Price" target="Sylvia Avondale">
+      <data key="d1">0.9924337534022697</data>
+    </edge>
+    <edge source="Flora Price" target="Evelyn Jefferson">
+      <data key="d1">-0.9696734734439361</data>
+    </edge>
+    <edge source="Laura Mandeville" target="Laura Mandeville">
+      <data key="d1">1.0</data>
+    </edge>
+    <edge source="Laura Mandeville" target="Nora Fayette">
+      <data key="d1">-0.9979028658236456</data>
+    </edge>
+    <edge source="Laura Mandeville" target="Myra Liddel">
+      <data key="d1">-0.9536252240439788</data>
+    </edge>
+    <edge source="Laura Mandeville" target="Frances Anderson">
+      <data key="d1">0.9923109674615668</data>
+    </edge>
+    <edge source="Laura Mandeville" target="Theresa Anderson">
+      <data key="d1">0.9979093989521154</data>
+    </edge>
+    <edge source="Laura Mandeville" target="Ruth DeSand">
+      <data key="d1">0.9231496333936635</data>
+    </edge>
+    <edge source="Laura Mandeville" target="Charlotte McDowd">
+      <data key="d1">0.988683815306561</data>
+    </edge>
+    <edge source="Laura Mandeville" target="Sylvia Avondale">
+      <data key="d1">-0.9919883262877806</data>
+    </edge>
+    <edge source="Laura Mandeville" target="Evelyn Jefferson">
+      <data key="d1">0.9900871369206231</data>
+    </edge>
+    <edge source="Nora Fayette" target="Nora Fayette">
+      <data key="d1">1.0000000000000002</data>
+    </edge>
+    <edge source="Nora Fayette" target="Myra Liddel">
+      <data key="d1">0.9417412054680648</data>
+    </edge>
+    <edge source="Nora Fayette" target="Frances Anderson">
+      <data key="d1">-0.9970331752545102</data>
+    </edge>
+    <edge source="Nora Fayette" target="Theresa Anderson">
+      <data key="d1">-0.9986748038454198</data>
+    </edge>
+    <edge source="Nora Fayette" target="Ruth DeSand">
+      <data key="d1">-0.9245304496839375</data>
+    </edge>
+    <edge source="Nora Fayette" target="Charlotte McDowd">
+      <data key="d1">-0.9785018927435556</data>
+    </edge>
+    <edge source="Nora Fayette" target="Sylvia Avondale">
+      <data key="d1">0.9917518733564521</data>
+    </edge>
+    <edge source="Nora Fayette" target="Evelyn Jefferson">
+      <data key="d1">-0.996759626646458</data>
+    </edge>
+    <edge source="Myra Liddel" target="Myra Liddel">
+      <data key="d1">1.0</data>
+    </edge>
+    <edge source="Myra Liddel" target="Frances Anderson">
+      <data key="d1">-0.9132893227844558</data>
+    </edge>
+    <edge source="Myra Liddel" target="Theresa Anderson">
+      <data key="d1">-0.9326484140852997</data>
+    </edge>
+    <edge source="Myra Liddel" target="Ruth DeSand">
+      <data key="d1">-0.7736856890547354</data>
+    </edge>
+    <edge source="Myra Liddel" target="Charlotte McDowd">
+      <data key="d1">-0.9833706477829592</data>
+    </edge>
+    <edge source="Myra Liddel" target="Sylvia Avondale">
+      <data key="d1">0.9735595130970538</data>
+    </edge>
+    <edge source="Myra Liddel" target="Evelyn Jefferson">
+      <data key="d1">-0.9136251345959441</data>
+    </edge>
+    <edge source="Frances Anderson" target="Frances Anderson">
+      <data key="d1">1.0</data>
+    </edge>
+    <edge source="Frances Anderson" target="Theresa Anderson">
+      <data key="d1">0.9979617158759385</data>
+    </edge>
+    <edge source="Frances Anderson" target="Ruth DeSand">
+      <data key="d1">0.9463404917021742</data>
+    </edge>
+    <edge source="Frances Anderson" target="Charlotte McDowd">
+      <data key="d1">0.962520949140783</data>
+    </edge>
+    <edge source="Frances Anderson" target="Sylvia Avondale">
+      <data key="d1">-0.9793102141925</data>
+    </edge>
+    <edge source="Frances Anderson" target="Evelyn Jefferson">
+      <data key="d1">0.9991767178713505</data>
+    </edge>
+    <edge source="Theresa Anderson" target="Theresa Anderson">
+      <data key="d1">1.0</data>
+    </edge>
+    <edge source="Theresa Anderson" target="Ruth DeSand">
+      <data key="d1">0.9414628168641207</data>
+    </edge>
+    <edge source="Theresa Anderson" target="Charlotte McDowd">
+      <data key="d1">0.9771909332638407</data>
+    </edge>
+    <edge source="Theresa Anderson" target="Sylvia Avondale">
+      <data key="d1">-0.9853644142204497</data>
+    </edge>
+    <edge source="Theresa Anderson" target="Evelyn Jefferson">
+      <data key="d1">0.9957879910034787</data>
+    </edge>
+    <edge source="Ruth DeSand" target="Ruth DeSand">
+      <data key="d1">1.0</data>
+    </edge>
+    <edge source="Ruth DeSand" target="Charlotte McDowd">
+      <data key="d1">0.8748386141256034</data>
+    </edge>
+    <edge source="Ruth DeSand" target="Sylvia Avondale">
+      <data key="d1">-0.8703209156291671</data>
+    </edge>
+    <edge source="Ruth DeSand" target="Evelyn Jefferson">
+      <data key="d1">0.93547815950697</data>
+    </edge>
+    <edge source="Charlotte McDowd" target="Charlotte McDowd">
+      <data key="d1">1.0000000000000002</data>
+    </edge>
+    <edge source="Charlotte McDowd" target="Sylvia Avondale">
+      <data key="d1">-0.987352522410464</data>
+    </edge>
+    <edge source="Charlotte McDowd" target="Evelyn Jefferson">
+      <data key="d1">0.9587992747457567</data>
+    </edge>
+    <edge source="Sylvia Avondale" target="Sylvia Avondale">
+      <data key="d1">0.9999999999999998</data>
+    </edge>
+    <edge source="Sylvia Avondale" target="Evelyn Jefferson">
+      <data key="d1">-0.9813039491329754</data>
+    </edge>
+    <edge source="Evelyn Jefferson" target="Evelyn Jefferson">
+      <data key="d1">1.0</data>
+    </edge>
+  </graph>
+</graphml>

@@ -83,8 +83,7 @@ with open('input_mlb_stats.com.html') as infile:
             print_property(link, "dg-np", "NP")
             print_property(link, "dg-tpa", "PA")
 
-            for ele in listToWriteValuesToCSV:
-                print(ele)
+            print("\n\n")
 
             spamwriter.writerow(listToWriteValuesToCSV)
 
